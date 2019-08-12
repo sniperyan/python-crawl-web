@@ -1,0 +1,7 @@
+@function vw($px) {  //设计稿960px宽度
+    @return ($px / 960) * 100vw;
+}
+
+@function vh($px) {  //设计稿540px宽度
+    @return ($px / 540) * 100vh;
+}
